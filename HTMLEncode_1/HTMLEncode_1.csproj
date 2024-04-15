@@ -21,7 +21,8 @@
   </ItemGroup>
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties DisLinkedXmlFile="..\SLC-GQIO-HTMLEncode.xml" DisProjectType="automationScriptProject" DisLinkId="1" />
+      <UserProperties DisLinkedXmlFile="..\HTMLEncode.xml" DisProjectType="automationScriptProject"
+        DisLinkId="1" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>

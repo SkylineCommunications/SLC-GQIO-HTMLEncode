@@ -35,14 +35,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analy
 		Internal\Code Analysis\stylecop.json = Internal\Code Analysis\stylecop.json
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SLC-GQIO-HTMLEncode", "SLC-GQIO-HTMLEncode", "{8A2F227B-0AB5-472A-ABDB-8F792B2C542D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTMLEncode", "HTMLEncode", "{8A2F227B-0AB5-472A-ABDB-8F792B2C542D}"
 	ProjectSection(SolutionItems) = preProject
-		SLC-GQIO-HTMLEncode.xml = SLC-GQIO-HTMLEncode.xml
+		HTMLEncode.xml = HTMLEncode.xml
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{6476A88D-C72F-46F7-8FE6-463C0B98266F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SLC-GQIO-HTMLEncode_1", "SLC-GQIO-HTMLEncode_1\SLC-GQIO-HTMLEncode_1.csproj", "{25307B1A-E92B-4CA7-B7DE-1D61B25F9AB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HTMLEncode_1", "HTMLEncode_1\HTMLEncode_1.csproj", "{25307B1A-E92B-4CA7-B7DE-1D61B25F9AB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
