@@ -1,5 +1,5 @@
+using System.Text.Encodings.Web;
 using Skyline.DataMiner.Analytics.GenericInterface;
-using System.Web;
 
 [GQIMetaData(Name = "HTML Encode")]
 public class HTMLEncodeOperator : IGQIRowOperator, IGQIInputArguments
@@ -24,7 +24,7 @@ public class HTMLEncodeOperator : IGQIRowOperator, IGQIInputArguments
 		string html;
 		if (!row.TryGetValue(_htmlColumn, out html))
 			return;
-		var encoded = HttpUtility.HtmlEncode(html);
+		var encoded = HtmlEncoder.Default.Encode(html);
 		row.SetValue(_htmlColumn, encoded, encoded);
 	}
 }
